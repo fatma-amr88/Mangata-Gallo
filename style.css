@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: georgia, serif;
+    background-color: #FCFAF7;
+    color: #601D49;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+nav{
+    background-color: #601D49;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a{
+    color: #FCFAF7;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #BD5579;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    color: #601D49;
+}
+
+.intro{
+    text-align: center;
+    line-height: 1.7;
+    color: #601D49;
+}
+
+.cards{
+    display: flex;
+    gap: 25px;
+    margin: 20px;
+}
+
+.card{
+    flex: 1;
+    background-color: #F5E9E2;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+main{
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+    .h1{
+        font-size: 25px;
+    }
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    margin-top: 40px;
+    background-color: #601D49;
+    color: #FCFAF7;
+    height: 10px;
+}
+
+.footer-logo img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-logo {
+    background-color: #FCFAF7;
+    padding: 8px;
+    border-radius: 4px;
+}
