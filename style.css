@@ -73,8 +73,19 @@ main{
     .cards {
         flex-direction: column;
     }
-    .h1{
+
+    h1 {
         font-size: 25px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .copyright {
+        overflow-wrap: anywhere;
     }
 }
 
